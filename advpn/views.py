@@ -89,10 +89,6 @@ def index(request):
         set auto-discovery-sender enable
         set network-overlay enable
         set network-id {hivid}
-        set tunnel-search nexthop
-        set ipv4-start-ip {startip}
-        set ipv4-end-ip {endip}
-        set ipv4-netmask {netmask}
         set psksecret fortinet
         set dpd-retryinterval 60
     next
