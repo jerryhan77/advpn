@@ -9,6 +9,12 @@ Introduction Video: https://vimeo.com/655152835
 
 For any bugs or feature requests please raise an issue on github. 
 
+## Run
+
+```
+python manage.py runserver
+```
+
 ## Settings
 
 ### General Settings
