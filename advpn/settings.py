@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-_*i_ck#o0ggq4he-1*vf0$bhs6(tobc#o%n2tami+5(c8@5(yl
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'advpn',
 ]
 
 MIDDLEWARE = [
@@ -116,11 +117,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = 'static/'
-
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-    "advpn/static/",
-]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
